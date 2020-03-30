@@ -1,0 +1,5 @@
+[dvd]
+name=DVD
+baseurl=file:///mnt
+enable=1
+gpgcheck=0
