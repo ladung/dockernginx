@@ -16,9 +16,11 @@ config  Dockerfile  html  mnt  nginx.tar.gz  repo
   Bước 1: Tạo kho repo local để cài các gói phụ thuộc. ( các bạn tìm hiểu tạo repo local trên linux).
   
   Bước 2: Xây dựng nginx từ dockerfile
+  
   [root@ladung nginx]: docker build -t nginx:[version] -t Dockerfile/nginx .
   
   Bước 3: Sau khi xây dựng xong images ở trên, các bạn run images đã buil thành container
+  
   [root@ladung nginx]: docker run -d -p 8080:80 nginx:[version]
   
   Bước 4: Truy cập http://[ip]:8080 để kiểm tra kết quả
