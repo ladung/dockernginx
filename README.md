@@ -12,7 +12,8 @@ config  Dockerfile  html  mnt  nginx.tar.gz  repo
   - html: chứa source của web
   - mnt: chứ kho repo local mà ta sử dụng để cài các gói phụ thuộc
   - repo: chứa file .repo
-  =================================================================================================
+  =========================================================================================
+  
   Bước 1: Tạo kho repo local để cài các gói phụ thuộc. ( các bạn tìm hiểu tạo repo local trên linux).
   
   Bước 2: Xây dựng nginx từ dockerfile
